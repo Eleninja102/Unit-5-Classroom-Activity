@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DC4404D270CF0CC00A3F9DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DC4404C270CF0CC00A3F9DB /* main.cpp */; };
+		1DC44055270CF11400A3F9DB /* Fraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DC44053270CF11400A3F9DB /* Fraction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1DC44049270CF0CC00A3F9DB /* Unit 5: Classroom Activity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 5: Classroom Activity"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC4404C270CF0CC00A3F9DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DC44053270CF11400A3F9DB /* Fraction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fraction.cpp; sourceTree = "<group>"; };
+		1DC44054270CF11400A3F9DB /* Fraction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fraction.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1DC4404C270CF0CC00A3F9DB /* main.cpp */,
+				1DC44053270CF11400A3F9DB /* Fraction.cpp */,
+				1DC44054270CF11400A3F9DB /* Fraction.hpp */,
 			);
 			path = "Unit 5: Classroom Activity";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC4404D270CF0CC00A3F9DB /* main.cpp in Sources */,
+				1DC44055270CF11400A3F9DB /* Fraction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
